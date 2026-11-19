@@ -93,6 +93,8 @@ No action needed! Your Space is already active, receiving requests, and returnin
 
 1. **Clone and navigate to repository**:
    ```bash
+   # Clone the repository from Hugging Face Spaces (or your Git provider):
+   git clone https://huggingface.co/spaces/its-seraj/cloudiqs-risk-monitor cloudIQS
    cd cloudIQS
    ```
 

@@ -121,6 +121,7 @@ cloudIQS/
 
 ```bash
 # 1. Clone repository and navigate to directory
+git clone https://huggingface.co/spaces/its-seraj/cloudiqs-risk-monitor cloudIQS
 cd cloudIQS
 
 # 2. Create and activate virtual environment
