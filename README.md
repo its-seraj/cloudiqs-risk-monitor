@@ -18,6 +18,8 @@ pinned: false
 
 An enterprise-grade **Risk Monitor AI Agent** built for **Agentic Bakery (CloudiQS)** using the **Strands Agents SDK**, **Amazon Bedrock**, and **Bedrock AgentCore Runtime**.
 
+> 📖 **Configuration & Deployment Guide**: See [**`SETUP.md`**](SETUP.md) for full details on environment variables, the dual-mode execution engine (AWS Bedrock vs. Offline Fallback), and setup guides for Hugging Face Spaces, Docker, and local development.
+
 The agent processes financial transaction batches, detects fraud anomalies using LLM reasoning (velocity spikes, out-of-pattern high amounts, risky merchants, irregular night hours), automatically notifies risk teams via cryptographically signed webhooks, and synthesizes structured findings.
 
 ---
