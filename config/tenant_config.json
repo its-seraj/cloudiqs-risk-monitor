@@ -1,0 +1,18 @@
+{
+  "tenants": [
+    {
+      "customer_id": "customer_alpha",
+      "webhook_url": "http://mock-webhook-receiver:8081/webhook/customer-alpha",
+      "hmac_secret": "alpha-secure-hmac-key-f92b7610",
+      "risk_threshold_amount": 3000.0,
+      "allowed_high_risk_categories": []
+    },
+    {
+      "customer_id": "customer_beta",
+      "webhook_url": "http://mock-webhook-receiver:8081/webhook/customer-beta",
+      "hmac_secret": "beta-secure-hmac-key-a14c9934",
+      "risk_threshold_amount": 1500.0,
+      "allowed_high_risk_categories": []
+    }
+  ]
+}
