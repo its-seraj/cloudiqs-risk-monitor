@@ -1,3 +1,13 @@
+---
+title: CloudiQS Risk Monitor AI Agent
+emoji: 🛡️
+colorFrom: indigo
+colorTo: purple
+sdk: docker
+app_port: 8080
+pinned: false
+---
+
 # CloudiQS (Agentic Bakery) Enterprise Risk Monitor AI Agent
 
 [![CI/CD Pipeline](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue.svg)](.github/workflows/ci-cd.yml)
